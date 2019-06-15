@@ -1,12 +1,7 @@
 #!/bin/sh
 
-whoami
-pwd
+# Accessing the project folder.
+cd /var/lib/jenkins/workspace/Tipickly\ API\ Deploy\ \(PROD\)/
 
-# Going to the var folder.
-cd /var
-
-# Enter www.
-cd www
-
-mkdir test
+# Running composer install.
+composer install
