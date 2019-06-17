@@ -8,4 +8,4 @@ composer install
 
 # Rsyncing to the server
 
-sudo rm -Rf /var/lib/jenkins/workspace/Tipickly\ API\ Deploy\ \(PROD\)/
+sudo rm -Rf /var/lib/jenkins/workspace/Tipickly\ API\ Deploy\ \(PROD\)/ -vvv
