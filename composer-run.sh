@@ -12,3 +12,10 @@ zip -r tpanel.zip Tipickly\ API\ Deploy\ \(PROD\)/
 
 # Rsyncing to the server
 rsync -avz tpanel.zip root@68.183.192.36:/var/www
+
+# SSHing into LAMP server
+ssh root@68.183.192.36
+
+# Unzip the folder
+cd /var/www
+unzip tpanel.zip
